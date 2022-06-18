@@ -3,7 +3,6 @@ const fs = require('fs');
 
 const port = 8000;
 
-//Using the createserver method to create a http server instance
 const server = http.createServer(function(req, res){
     res.writeHead(200, {'Content-Type': 'text/html'});
     switch (req.url) {
